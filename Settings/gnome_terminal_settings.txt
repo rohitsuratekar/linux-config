@@ -1,0 +1,28 @@
+[legacy]
+theme-variant='dark'
+
+[legacy/profiles:]
+list=['e5ca347d-afb8-481c-954c-378f175035de']
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=false
+visible-name='Dex'
+
+[legacy/profiles:/:e5ca347d-afb8-481c-954c-378f175035de]
+allow-bold=true
+audible-bell=false
+background-color='#00002B2B3636'
+bold-color='#838394949696'
+bold-color-same-as-fg=true
+bold-is-bright=true
+font='Source Code Pro 15'
+foreground-color='rgb(195,215,218)'
+highlight-background-color='#'
+highlight-colors-set=true
+highlight-foreground-color='#'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(69,75,42)', 'rgb(207,154,107)', 'rgb(108,176,224)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(143,155,159)', 'rgb(216,121,121)', 'rgb(136,207,118)', 'rgb(101,123,131)', 'rgb(38,153,255)', 'rgb(211,54,130)', 'rgb(67,184,195)', 'rgb(253,246,227)']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Solarized Dark'

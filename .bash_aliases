@@ -31,7 +31,7 @@ alias desk="cd $HOME/Desktop/"
 # Mounted file system
 alias s="cd $DEXHOME/Services/"
 alias w="cd $DEXHOME/"
-alias z="cd $DEXHOME/Rohit/rBox/Zebrafish/"
+alias zz="cd $DEXHOME/Rohit/rBox/Zebrafish/"
 alias ct="cd $DEXHOME/Rohit/PythonProjects/CardioTrans/"
 alias ap="cd $DEXHOME/Rohit/AndroidProjects/"
 alias pp="cd $DEXHOME/Rohit/PythonProjects/"
