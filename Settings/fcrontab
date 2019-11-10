@@ -1,0 +1,2 @@
+0 20 * * * PATH/Backups/dexters_cloud.sh
+0 20 * * * PATH/Backups/settings_backup.sh
