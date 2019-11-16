@@ -21,8 +21,8 @@ alias f="find . -name"
 alias t="tar --exclude='*/*' -tvf"
 alias gt="git log --graph --decorate --pretty=oneline --abbrev-commit"
 alias g="git status"
-alias du="du -h --max-depth=1"
-alias dfh="df -BG |body sort -k 2nr | head -5"
+alias du="du -h --max-depth=1 "
+alias dfh="df -BG |body sort -k 2nr | head -8"
 
 # All file navigations. Export DEXHOME variable in .bashrc
 # System
@@ -47,9 +47,6 @@ alias u="sudo pacman -Syu"
 alias pi="sudo pacman -S"
 alias pacremove="sudo pacman -Rsn $(pacman -Qdtq)" # Purges unused dependencies
 
-
-# Check Weather
-alias weather="curl wttr.in"
 
 # Change file date time
 alias changetime="$DEXHOME/Services/Scripts/change_time.sh"
