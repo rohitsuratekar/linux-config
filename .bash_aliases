@@ -58,3 +58,4 @@ alias changetime="$DEXHOME/Services/Scripts/change_time.sh"
 
 alias config='/usr/bin/git --git-dir=$HOME/.dexconf/ --work-tree=$HOME'
 
+alias loadnvm="source /usr/share/nvm/init-nvm.sh"

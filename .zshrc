@@ -141,11 +141,3 @@ if [ -f $HOME/Settings/zsh_plguins.sh ]; then
 	source $HOME/Settings/zsh_plguins.sh 
 fi
 
-# Set up Node Version Manager
-
-if [ -f /usr/share/nvm/init-nvm.sh ]; then
-	source /usr/share/nvm/init-nvm.sh
-fi
-
-
-
