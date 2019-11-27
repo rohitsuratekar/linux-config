@@ -12,7 +12,7 @@ urxvt*scrollBar: false
 ! Fonts
 
 
-URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true:hinting=true,xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true:hinting=true
+URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true,xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true
 
 
 
@@ -21,10 +21,10 @@ URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true:hinting=tr
 !-------------------------------------------------------------------------------
 
 Xft.dpi:                    96
-Xft.antialias:              false
+!Xft.antialias:              false
 Xft.rgba:                   rgb
-Xft.hinting:                true
-Xft.hintstyle:              hintslight
+!Xft.hinting:                true
+!Xft.hintstyle:              hintslight
 
 !-------------------------------------------------------------------------------
 ! URxvt settings

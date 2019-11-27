@@ -15,13 +15,6 @@ function aur() {
 	git clone "$@"
 	name=$(basename "$@" | sed 's/\.git//')
 	cd $name
-	echo ==============================================
-	grep http PKGBUILD
-	echo ==============================================
-	echo ==============================================
-	echo AUR package ${name} , continue? \(or ctrl+c\)
-	echo ==============================================
-	read var
 	makepkg -si
 	cd ..
 	sudo rm -r $name 

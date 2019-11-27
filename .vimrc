@@ -30,8 +30,6 @@ Plugin 'honza/vim-snippets'
 " Adss info bar and other details to the boring window
 Plugin 'vim-airline/vim-airline'
 
-" For python lint check
-Plugin 'nvie/vim-flake8'
 
 " For tree view
 Plugin 'scrooloose/nerdtree'
@@ -39,9 +37,23 @@ Plugin 'scrooloose/nerdtree'
 " Universal search
 Plugin 'kien/ctrlp.vim'
 
+" ColorScheme
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 filetype plugin indent on 
+
+" The following are commented out as they cause vim to behave a lot
+" differently from regular Vi. They are highly recommended though.
+set showcmd             " Show (partial) command in status line.
+set showmatch           " Show matching brackets.
+"set ignorecase         " Do case insensitive matching
+"set smartcase          " Do smart case matching
+"set incsearch          " Incremental search
+"set autowrite          " Automatically save before commands like :next and :make
+"set hidden             " Hide buffers when they are abandoned
+"set mouse=a            " Enable mouse usage (all modes)
+
 
 
 " make YCM compatible with UltiSnips (using supertab)
@@ -114,8 +126,19 @@ let g:SuperTabDefaultCompletionType = "context"
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
 " CtrlP settings
-let g:ctrlp_match_window = 'bottom,order:ttb'
-let g:ctrlp_switch_buffer = 0
-let g:ctrlp_working_path_mode = 0
-let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'c'
+
+" Solarized Options
+set t_Co=256
+syntax enable
+let g:solarized_termtrans = 1
+let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
+
+let g:BASH_AuthorName   = 'Rohit Suratekar'
+let g:BASH_Email        = 'rohitsuratekar@gmail.com'
+let g:BASH_Company      = 'IIMCB'
 
