@@ -1,7 +1,11 @@
 #
 # ~/.bashrc
 #
-
+if [[ $DISPLAY ]]; then
+    # If not running interactively, do not do anything
+    [[ $- != *i* ]] && return
+    [[ -z "$TMUX" ]] && exec tmux
+fi
 # Following file have all local variables like DEXHOME
 # This will be used in all configuration files and should be expored first
 if [ -f $HOME/.constants ]; then 

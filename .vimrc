@@ -40,6 +40,9 @@ Plugin 'kien/ctrlp.vim'
 " ColorScheme
 Plugin 'altercation/vim-colors-solarized'
 
+" Auto pair
+Plugin 'jiangmiao/auto-pairs'
+
 call vundle#end()
 filetype plugin indent on 
 

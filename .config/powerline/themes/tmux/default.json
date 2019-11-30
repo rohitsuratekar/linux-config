@@ -1,0 +1,23 @@
+{
+	"segments": {
+		"right": [
+			{
+				"function": "powerline.segments.common.time.date",
+				"name": "date",
+				"args":{
+					"format": "%a, %d %b",
+					"istime" : false
+				}
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"name": "time",
+				"args": {
+					"format": "%I:%M %p",
+					"istime": true
+				}
+			}
+		]
+	}
+}
+
