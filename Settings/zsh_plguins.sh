@@ -1,12 +1,5 @@
 # All zsh plguin setting 
 
-source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
-
-# Powerline9k options and customization
-
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir status)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(background_jobs vcs)
-
 VCS_COLOR="006"
 POWERLEVEL9K_VCS_CLEAN_BACKGROUND=$VCS_COLOR 
 POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=$VCS_COLOR 
@@ -19,7 +12,6 @@ POWERLEVEL9K_SHORTEN_DELIMITER=".."
 
 POWERLEVEL9K_STATUS_OK=false
 POWERLEVEL9K_STATUS_FOREGROUND='green'
-
 
 # Declare the variable
 typeset -A ZSH_HIGHLIGHT_STYLES

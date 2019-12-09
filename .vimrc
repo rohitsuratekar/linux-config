@@ -132,6 +132,13 @@ let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'c'
+let g:ctrlp_max_depth=10
+let g:ctrlp_max_files=0
+
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
 
 " Solarized Options
 set t_Co=256
