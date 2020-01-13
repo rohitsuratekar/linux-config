@@ -38,7 +38,8 @@ alias zz="cd $DEXHOME/Rohit/rBox/Zebrafish/"
 alias ct="cd $DEXHOME/Rohit/PythonProjects/CardioTrans/"
 alias ap="cd $DEXHOME/Rohit/AndroidProjects/"
 alias pp="cd $DEXHOME/Rohit/PythonProjects/"
-alias rr="cd $DEXHOME/Rohit/rBox/RIIMCB/2019/"
+alias rr="cd $DEXHOME/Rohit/rBox/RIIMCB/2020/"
+alias v="cd /mnt/os/Viper/"
 
 
 # Update Python packages
@@ -62,3 +63,6 @@ alias changetime="$DEXHOME/Services/Scripts/change_time.sh"
 alias config='/usr/bin/git --git-dir=$HOME/.dexconf/ --work-tree=$HOME'
 
 alias loadnvm="source /usr/share/nvm/init-nvm.sh"
+
+# For Pyenv
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
