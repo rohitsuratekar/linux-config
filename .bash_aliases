@@ -26,6 +26,7 @@ alias gt="git log --graph --decorate --pretty=oneline --abbrev-commit"
 alias g="git status"
 alias du="du -h --max-depth=1 "
 alias dfh="df -BG |body sort -k 2nr | head -8"
+alias vim="nvim" # To use neo-vim instead vim
 
 # All file navigations. Export DEXHOME variable in .bashrc
 # System
