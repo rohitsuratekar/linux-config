@@ -32,6 +32,7 @@ alias vim="nvim" # To use neo-vim instead vim
 # System
 alias down="cd $HOME/Downloads/"
 alias desk="cd $HOME/Desktop/"
+alias doc="cd $HOME/Documents/"
 # Mounted file system
 alias s="cd $DEXHOME/Services/"
 alias w="cd $DEXHOME/"
