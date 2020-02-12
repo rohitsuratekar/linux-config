@@ -103,7 +103,7 @@ nmap <C-d> : <C-w><C-j><C-w>q
 " Split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
+nnorema <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Removes Highlight
