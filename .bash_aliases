@@ -50,6 +50,7 @@ alias pipall="pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -
 # Distro Specific
 # alias u="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"
 #alias u="sudo pacman -Syu"
+alias u="sudo dnf upgrade --refresh"
 #alias pi="sudo pacman -S"
 #alias pacremove="sudo pacman -Rsn $(pacman -Qdtq)" # Purges unused dependencies
 
