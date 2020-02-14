@@ -74,3 +74,6 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 
 # Path for snap packages
 export PATH="/var/lib/snapd/snap/bin:$PATH"
+
+# For the Ranger
+export W3MIMGDISPLAY_PATH="/usr/share/w3m"

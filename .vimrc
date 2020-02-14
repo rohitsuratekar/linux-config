@@ -58,6 +58,8 @@ set showmatch           " Show matching brackets.
 "set mouse=a            " Enable mouse usage (all modes)
 
 
+" YCM cLang options
+let g:ycm_use_clangd = 0
 
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']

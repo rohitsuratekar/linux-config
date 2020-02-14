@@ -13,6 +13,7 @@ urxvt*scrollBar: false
 
 
 URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true,xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true
+! URxvt*font: xft:MesloLGF\ NF\ Regular:pixelsize=20:antialias=true,xft:MesloLGF\ NF\ Regular:pixelsize=20:antialias=true
 
 
 
@@ -70,6 +71,12 @@ URxvt.keysym.F11: perl:fullscreen:switch
 URxvt.cursorBlink:          true
 URxvt.cursorColor:          #657b83
 URxvt.cursorUnderline:      false
+
+! Copy-paste mechanism
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
 
 ! Pointer
 URxvt.pointerBlank:         true
