@@ -65,7 +65,6 @@ alias changetime="$DEXHOME/Services/Scripts/change_time.sh"
 
 alias config='/usr/bin/git --git-dir=$HOME/.dexconfig/ --work-tree=$HOME'
 
-alias loadnvm="source /usr/share/nvm/init-nvm.sh"
 
 # For Pyenv
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
@@ -77,3 +76,6 @@ export PATH="/var/lib/snapd/snap/bin:$PATH"
 
 # For the Ranger
 export W3MIMGDISPLAY_PATH="/usr/share/w3m"
+
+# Initialize NVM constant
+export NVM_DIR="$HOME/.nvm"

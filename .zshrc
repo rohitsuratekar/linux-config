@@ -162,3 +162,6 @@ fi
 
 # TO remove color from the tab completition
 zstyle ':completion:*' list-colors
+
+# Enable zmv 
+autoload zmv
