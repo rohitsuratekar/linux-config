@@ -28,6 +28,9 @@ alias du="du -h --max-depth=1 "
 alias dfh="df -BG |body sort -k 2nr | head -8"
 alias vim="nvim" # To use neo-vim instead vim
 
+# GPG 
+alias gpgremove="echo RELOADAGENT | gpg-connect-agent"
+
 # All file navigations. Export DEXHOME variable in .bashrc
 # System
 alias down="cd $HOME/Downloads/"
