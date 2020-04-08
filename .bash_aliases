@@ -31,6 +31,9 @@ alias vim="nvim" # To use neo-vim instead vim
 # GPG 
 alias gpgremove="echo RELOADAGENT | gpg-connect-agent"
 
+# Check temperature
+alias checktemp="paste <(cat /sys/class/thermal/thermal_zone*/type) <(cat /sys/class/thermal/thermal_zone*/temp) | column -s $'\t' -t | sed 's/\(.\)..$/.\1°C/'"
+
 # All file navigations. Export DEXHOME variable in .bashrc
 # System
 alias down="cd $HOME/Downloads/"
