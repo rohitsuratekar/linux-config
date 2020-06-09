@@ -43,6 +43,9 @@ Plugin 'altercation/vim-colors-solarized'
 " Auto pair
 Plugin 'jiangmiao/auto-pairs'
 
+" Julia support
+Plugin 'JuliaEditorSupport/julia-vim'
+
 call vundle#end()
 filetype plugin indent on 
 

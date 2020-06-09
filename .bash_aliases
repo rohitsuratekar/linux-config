@@ -48,6 +48,7 @@ alias ap="cd $DEXHOME/Rohit/AndroidProjects/"
 alias pp="cd $DEXHOME/Rohit/PythonProjects/"
 alias rr="cd $DEXHOME/Rohit/rBox/RIIMCB/2020/"
 alias v="cd /mnt/os/Viper/"
+alias adb2="/home/dex/Android/Sdk/platform-tools/adb"  # For special adb setupe
 
 
 # Update Python packages
@@ -76,6 +77,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dexconfig/ --work-tree=$HOME'
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+
 
 # Path for snap packages
 export PATH="/var/lib/snapd/snap/bin:$PATH"
