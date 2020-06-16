@@ -57,7 +57,8 @@ alias pipall="pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -
 # Distro Specific
 # alias u="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"
 #alias u="sudo pacman -Syu"
-alias u="sudo dnf upgrade --refresh"
+#alias u="sudo dnf upgrade --refresh"
+alias u="sudo zypper up"
 #alias pi="sudo pacman -S"
 #alias pacremove="sudo pacman -Rsn $(pacman -Qdtq)" # Purges unused dependencies
 
@@ -70,13 +71,14 @@ alias changetime="$DEXHOME/Services/Scripts/change_time.sh"
 # https://www.atlassian.com/git/tutorials/dotfiles
 # After this use 'config config --local status.showUntrackedFiles no'
 
-alias config='/usr/bin/git --git-dir=$HOME/.dexconfig/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dexconf/ --work-tree=$HOME'
 
 
-# For Pyenv
+# For Pyenv 
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="/usr/bin:$PATH"
 
 
 # Path for snap packages

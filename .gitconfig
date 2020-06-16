@@ -10,3 +10,5 @@
 	d = difftool
 [core]
 	editor = vim
+[color]
+	ui = true

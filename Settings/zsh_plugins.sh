@@ -34,3 +34,18 @@ ZSH_HIGHLIGHT_STYLES[hashed-command]=fg=009
 FREETYPE_PROPERTIES="truetype:interpreter-version=35"
 
 
+
+# For auto-suggestions
+
+
+#--------------------------------------------------------------------#
+
+# Global Configuration Variables                                     #
+
+#--------------------------------------------------------------------#
+
+
+
+# Color to use when highlighting suggestion
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
