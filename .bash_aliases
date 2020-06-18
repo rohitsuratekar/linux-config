@@ -51,9 +51,6 @@ alias v="cd /mnt/os/Viper/"
 alias adb2="/home/dex/Android/Sdk/platform-tools/adb"  # For special adb setupe
 
 
-# Update Python packages
-alias pipall="pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install --user --upgrade"
-
 # Distro Specific
 # alias u="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"
 #alias u="sudo pacman -Syu"
@@ -89,3 +86,6 @@ export W3MIMGDISPLAY_PATH="/usr/share/w3m"
 
 # Initialize NVM constant
 export NVM_DIR="$HOME/.nvm"
+
+# PATH for adb tools
+export PATH="$HOME/Android/Sdk/platform-tools:$PATH"

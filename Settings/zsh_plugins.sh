@@ -30,21 +30,6 @@ ZSH_HIGHLIGHT_STYLES[commandseparator]=none
 ZSH_HIGHLIGHT_STYLES[hashed-command]=fg=009
 
 
-# For Wine Fonts
-FREETYPE_PROPERTIES="truetype:interpreter-version=35"
-
-
-
-# For auto-suggestions
-
-
-#--------------------------------------------------------------------#
-
-# Global Configuration Variables                                     #
-
-#--------------------------------------------------------------------#
-
-
 
 # Color to use when highlighting suggestion
 
