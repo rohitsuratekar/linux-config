@@ -45,7 +45,6 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 setopt extendedglob notify # Extended patterns for files and notify background jobs
 unsetopt beep # Disable been sount
-bindkey -v  # Vim style key-binding
 autoload zmv  #Enable zmv utils
 
 # Auto-completion
@@ -54,9 +53,6 @@ zstyle :compinstall filename '/home/dex/.zshrc'
 autoload -Uz compinit   # Enable it
 compinit
 zstyle ':completion:*' menu select # Use Arrow keys to select completion
-
-# Other options
-setopt COMPLETE_ALIASES  # autocompletion of command line switches for aliases
 zstyle ':completion::complete:*' gain-privileges 1  # Auto-completion for sudo commands
 
 # Reverse search

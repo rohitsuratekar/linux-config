@@ -87,5 +87,8 @@ export W3MIMGDISPLAY_PATH="/usr/share/w3m"
 # Initialize NVM constant
 export NVM_DIR="$HOME/.nvm"
 
+
 # PATH for adb tools
 export PATH="$HOME/Android/Sdk/platform-tools:$PATH"
+# Other paths
+export PATH="/usr/local/bin:$PATH" 
