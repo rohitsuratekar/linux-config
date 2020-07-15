@@ -92,3 +92,8 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/Android/Sdk/platform-tools:$PATH"
 # Other paths
 export PATH="/usr/local/bin:$PATH" 
+export PATH="/home/dex/.local/bin:$PATH"
+
+# For protonvpn
+alias protona="sudo $(which protonvpn) c -f"
+alias protond="sudo $(which protonvpn) d"

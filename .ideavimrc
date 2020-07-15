@@ -1,1 +1,1 @@
-
+:map <S-r> :action Run<CR>
