@@ -55,10 +55,10 @@ alias adb2="/home/dex/Android/Sdk/platform-tools/adb"  # For special adb setupe
 # alias u="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"
 #alias u="sudo pacman -Syu"
 #alias u="sudo dnf upgrade --refresh"
-alias u="sudo zypper up"
+#alias u="sudo zypper up"
 #alias pi="sudo pacman -S"
 #alias pacremove="sudo pacman -Rsn $(pacman -Qdtq)" # Purges unused dependencies
-
+alias u="sudo emerge -uDU --keep-going --with-bdeps=y @world"
 
 # Change file date time
 alias changetime="$DEXHOME/Services/Scripts/change_time.sh"
@@ -97,3 +97,7 @@ export PATH="/home/dex/.local/bin:$PATH"
 # For protonvpn
 alias protona="sudo $(which protonvpn) c -f"
 alias protond="sudo $(which protonvpn) d"
+
+# Gentoo helper
+alias dclean="sudo emerge --ask --depclean --verbose"
+alias ask="sudo emerge --ask --tree --verbose"
