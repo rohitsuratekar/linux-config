@@ -77,3 +77,4 @@ else
 	echo "Bash functions are not loaded from $HOME/Settings/bash_functions.sh"
 fi
 
+export GPG_TTY="$( tty )"

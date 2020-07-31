@@ -50,7 +50,6 @@ alias rr="cd $DEXHOME/Rohit/rBox/RIIMCB/2020/"
 alias v="cd /mnt/os/Viper/"
 alias adb2="/home/dex/Android/Sdk/platform-tools/adb"  # For special adb setupe
 
-
 # Distro Specific
 # alias u="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"
 #alias u="sudo pacman -Syu"
@@ -95,9 +94,12 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/home/dex/.local/bin:$PATH"
 
 # For protonvpn
-alias protona="sudo $(which protonvpn) c -f"
-alias protond="sudo $(which protonvpn) d"
+#alias protona="sudo $(which protonvpn) c -f"
+#alias protond="sudo $(which protonvpn) d"
 
 # Gentoo helper
 alias dclean="sudo emerge --ask --depclean --verbose"
 alias ask="sudo emerge --ask --tree --verbose"
+alias eu="equery u"
+alias eg="equery g"
+alias es="emerge -s"

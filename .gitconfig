@@ -9,7 +9,7 @@
 [alias]
 	d = difftool
 [core]
-	editor = vim
+	editor = nvim
 [color]
 	ui = true
 [gpg]

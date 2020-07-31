@@ -1,0 +1,84 @@
+background_opacity: 1
+startup_mode: Fullscreen
+
+window:
+        padding:
+                x: 8
+                y: 0
+
+# Font configuration (changes require restart)
+font:
+        size: 14.0
+        normal:
+                family: MesloLGS NF
+                style: Regular
+        bold:
+                family: MesloLGS NF
+                style: Bold
+        italic:
+                family: MesloLGS NF
+                style: Italic
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  history: 10000
+  # Number of lines the viewport will move for every line scrolled when
+  # scrollback is enabled (history > 0).
+  multiplier: 3
+
+
+# Colors (Solarized Dark)
+colors:
+  # Default colors
+  primary:
+    background: '#002b36' # base03
+    foreground: '#779dc2' # base0
+
+  # Cursor colors
+  cursor:
+    text:   '#eee8d5' # base03
+    cursor: '#839496' # base0
+
+  # Normal colors
+
+    normal:
+          black:   '#0b5d71' # base02 (color 1: normal)
+          red:     '#dc322f' # red (color 2: normal)
+          green:   '#ff007f' # green (color 3: normal)
+          yellow:  '#b58900' # yellow (color 4: normal)
+          blue:    '#000000' # blue (color 5: normal)
+          magenta: '#eee8d5' # magenta (color 6: normal)
+          cyan:    '#22847c' # cyan (color 7: normal)
+          white:   '#eee8d5' # base2 (color 8: normal)
+       
+          bright:
+             black:   '#eee8d5' # base03
+    red:     '#eee8d5' # orange
+    green:   '#586e75' # base01
+    yellow:  '#eee8d5' # base00
+    blue:    '#aba79a' # base0
+    magenta: '#6c71c4' # violet
+    cyan:    '#93a1a1' # base1
+    white:   '#22847c' # base3
+
+
+# If `true`, bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors: true
+# Allow terminal applications to change Alacritty's window title.
+dynamic_title: true
+# If this is `true`, the cursor will be rendered as a hollow box when the window is not focused.
+unfocused_hollow: true
+
+mouse:
+        # Click settings
+        #
+        # The `double_click` and `triple_click` settings control the time
+        # alacritty should wait for accepting multiple clicks as one double
+        # or triple click.
+        double_click: { threshold: 300 }
+        triple_click: { threshold: 300 }
+
+        # If this is `true`, the cursor is temporarily hidden when typing.
+        hide_when_typing: false 
+
+

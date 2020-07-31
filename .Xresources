@@ -7,13 +7,13 @@ URxvt*scrollWithBuffer: true
 ! scroll back to the bottom on keypress
 URxvt*scrollTtyKeypress: true
 
-urxvt*scrollBar: false
+URxvt*scrollBar: false
 
 ! Fonts
 
 
-URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true,xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true
-! URxvt*font: xft:MesloLGF\ NF\ Regular:pixelsize=20:antialias=true,xft:MesloLGF\ NF\ Regular:pixelsize=20:antialias=true
+!URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true,xft:Source\ Code\ Pro\ Medium:pixelsize=20:antialias=true
+URxvt*font: xft:MesloLGF\ NF\ Regular:pixelsize=20:antialias=true,xft:MesloLGF\ NF\ Regular:pixelsize=20:antialias=true
 
 
 
@@ -122,3 +122,4 @@ URxvt.pointerBlank:         true
 !! white dark/light
 *color7: #eee8d5
 *color15: #fdf6e3
+
