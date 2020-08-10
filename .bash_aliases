@@ -57,7 +57,7 @@ alias adb2="/home/dex/Android/Sdk/platform-tools/adb"  # For special adb setupe
 #alias u="sudo zypper up"
 #alias pi="sudo pacman -S"
 #alias pacremove="sudo pacman -Rsn $(pacman -Qdtq)" # Purges unused dependencies
-alias u="sudo emerge -uDU --keep-going --with-bdeps=y @world"
+alias u="sudo emerge --ask --update --deep --keep-going --with-bdeps=y --newuse @world"
 
 # Change file date time
 alias changetime="$DEXHOME/Services/Scripts/change_time.sh"
@@ -103,3 +103,4 @@ alias ask="sudo emerge --ask --tree --verbose"
 alias eu="equery u"
 alias eg="equery g"
 alias es="emerge -s"
+alias ea="equery list --portage-tree --overlay-tree"
