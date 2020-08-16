@@ -60,7 +60,7 @@ alias adb2="/home/dex/Android/Sdk/platform-tools/adb"  # For special adb setupe
 alias u="sudo emerge --ask --update --deep --keep-going --with-bdeps=y --newuse @world"
 
 # Change file date time
-alias changetime="$DEXHOME/Services/Scripts/change_time.sh"
+alias changetime="sudo rc-update add ntp-client default"
 
 # For version control on the dotfiles
 # Process is detailed in following

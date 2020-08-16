@@ -87,7 +87,7 @@ let g:tex_flavor='latex'
 set lazyredraw "Vim draws screen only if needed
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
-
+set number    		" Set line numbers
 
 " For retention of copy content to clipboard
 autocmd VimLeave * call system("xsel -ib", getreg('+'))
