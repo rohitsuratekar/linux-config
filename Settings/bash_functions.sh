@@ -48,3 +48,9 @@ function showlog() {
 	adb logcat | grep -F "`adb shell ps | grep com.secretbiology.insta | tr -s [:space:] ' ' | cut -d' ' -f2`"
 	#function_body
 }
+
+# This is customize function specifically prepared for my personal use.
+# Essentially it shitches off my custome notification system
+function set-notif() {
+	echo "$@" > "$DEXHOME/Services/Notifications/config"
+}
