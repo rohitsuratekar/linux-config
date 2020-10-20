@@ -1,3 +1,4 @@
 0 20 * * * PATH/Backups/dexters_cloud.sh
 0 20 * * 2 PATH/Backups/settings_backup.sh
-0 1 * * * PATH/Notifications/show_notifications.sh
+
+# last line should be blank for cronetab 

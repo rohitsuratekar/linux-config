@@ -49,6 +49,8 @@ alias pp="cd $DEXHOME/Rohit/PythonProjects/"
 alias rr="cd $DEXHOME/Rohit/rBox/RIIMCB/2020/"
 alias v="cd /mnt/os/Viper/"
 alias adb2="/home/dex/Android/Sdk/platform-tools/adb"  # For special adb setupe
+alias gc="git commit -a -S -m"
+alias xc="xargs echo -n | xclip -selection clipboard"
 
 # Distro Specific
 # alias u="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"
@@ -99,8 +101,11 @@ export PATH="/home/dex/.local/bin:$PATH"
 
 # Gentoo helper
 alias dclean="sudo emerge --ask --depclean --verbose"
+alias dremove="sudo emerge --deselect"
 alias ask="sudo emerge --ask --tree --verbose"
+alias askmask="sudo emerge --ask --autounmask=y --autounmask-write --verbose"
 alias eu="equery u"
 alias eg="equery g"
 alias es="emerge -s"
 alias ea="equery list --portage-tree --overlay-tree"
+
