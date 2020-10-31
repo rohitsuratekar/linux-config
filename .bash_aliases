@@ -51,6 +51,7 @@ alias v="cd /mnt/os/Viper/"
 alias adb2="/home/dex/Android/Sdk/platform-tools/adb"  # For special adb setupe
 alias gc="git commit -a -S -m"
 alias xc="xargs echo -n | xclip -selection clipboard"
+alias idate="TZ=Asia/Kolkata date"
 
 # Distro Specific
 # alias u="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"
@@ -109,3 +110,7 @@ alias eg="equery g"
 alias es="emerge -s"
 alias ea="equery list --portage-tree --overlay-tree"
 
+# Temporary
+export PATH="/home/dex/Softwares/meme/bin:$PATH"
+export PATH="/home/dex/Softwares/meme/libexec/meme-5.1.1:$PATH"
+export PATH="$PATH:/home/dex/Softwares/homer/.//bin/"
