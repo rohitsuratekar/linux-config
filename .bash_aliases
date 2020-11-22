@@ -112,5 +112,9 @@ alias ea="equery list --portage-tree --overlay-tree"
 
 # Temporary
 export PATH="/home/dex/Softwares/meme/bin:$PATH"
-export PATH="/home/dex/Softwares/meme/libexec/meme-5.1.1:$PATH"
+export PATH="/home/dex/Softwares/meme/libexec/meme-5.2.0:$PATH"
 export PATH="$PATH:/home/dex/Softwares/homer/.//bin/"
+
+# Photoshop
+alias photoshop="WINEPREFIX=/home/dex/.local/share/wineprefixes/photoshop wine64 /home/dex/.wine/drive_c/Program\ Files/Adobe/Adobe\ Photoshop\ 2020/Photoshop.exe"
+
